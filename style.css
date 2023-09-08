@@ -522,7 +522,7 @@ img.transition {
 
 /************************************ FOOTER *****************************************/
 .footer{
-    padding: 100px 200px;
+    padding: 50px 200px;
     display: flex;
     justify-content: space-between;
     color: white;
@@ -551,8 +551,14 @@ img.transition {
 }
 .footer-line{
     display: none;
+    background-color: white; 
+    font-size: 2rem; 
+    margin-top:20px ;
 }
-
+.footer-last{
+    opacity: 0.6;
+    padding-bottom: 30px;
+}
 @media screen and (max-width: 970px){
     .sticky-mobile{
         display: none;
